@@ -16,20 +16,25 @@ const Navbar = () => {
                     Eduardo Nahum
                 </div>
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-                <a href="#projects" className="mr-5 hover:text-white">
-                    Past Work
-                </a>
-                <a href="#skills" className="mr-5 hover:text-white">
-                    Skills
-                </a>
-                {/* <a href="#testimonials" className="mr-5 hover:text-white">
-                    Testimonials
-                </a> */}
+                    <a href="#projects" className="mr-5 hover:text-white">
+                        Past Work
+                    </a>
+                    <a href="#skills" className="mr-5 hover:text-white">
+                        Skills
+                    </a>
+                    <a href="#contact"
+                        className="mr-0 hover:text-white md:invisible">
+                        Get in Touch
+                        {/* <ArrowRightIcon className="w-4 h-4 ml-1" /> */}
+                    </a>
+                    {/* <a href="#testimonials" className="mr-5 hover:text-white">
+                        Testimonials
+                    </a> */}
                 </nav>
                 <a href="#contact"
-                className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-                    Get in Touch
-                <ArrowRightIcon className="w-4 h-4 ml-1" />
+                    className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 hidden md:flex">
+                        Get in Touch
+                    <ArrowRightIcon className="w-4 h-4 ml-1" />
                 </a>
             </div>
         </header>
