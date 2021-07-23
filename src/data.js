@@ -18,6 +18,15 @@ export const projects = [
       github: "https://github.com/enahum0412/robofriends"
     },
     {
+      title: "Expenses List",
+      subtitle: "React",
+      description:
+        "Expenses List is a React project made for the purpose of research and study. It is an app for registering expenses, that records the date, description and value of each entry and it has a filter and a graph.",
+      image: "./expenseslist.gif",
+      link: "https://enahum-expenseslist.netlify.app/",
+      github: "https://github.com/enahum0412/expenses-list"
+    },
+    {
       title: "Background Generator",
       subtitle: "JavaScript",
       description:
